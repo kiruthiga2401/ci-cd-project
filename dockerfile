@@ -5,7 +5,7 @@ FROM python:3.11
 WORKDIR /app
 
 # Copy the requirements file   
-COPY requirements.text .
+COPY requirements.text . 
 
 # Install the project dependencies
 RUN pip install -r requirements.text
